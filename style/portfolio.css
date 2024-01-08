@@ -6,11 +6,11 @@ body {
 nav {
     display: flex;
     /* mary r pasheE oi 3ta jinish rakhar jjonno */
-    justify-content :space-between;
+    justify-content: space-between;
     /* mary r  oi point gulorn majhe distance ta create korar jonnno */
     align-items: center;
     /* same height e  */
-    margin:0 200px ;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -30,16 +30,17 @@ nav {
     background: #FD6E0A;
     border: 0;
     font-size: 20px;
-    color: aliceblue ;
+    color: aliceblue;
     font-weight: 700;
     padding: 15px 30px;
 }
+
 .btn-2 {
     border-radius: 5px;
-   
+
     border-color: #FD6E0A;
     font-size: 20px;
-    color:  #FD6E0A;
+    color: #FD6E0A;
     font-weight: 700;
     padding: 15px 30px;
 }
@@ -54,17 +55,24 @@ nav li {
     /* portfolio blog Hire me r shamner dot or numbering rmv korar jonno */
     margin-right: 50px;
     /* portfolio blog Hire me r majhe 50px distance dear jonno */
-    
+
 
 }
 
 /* heading related style */
-.header
-{
-    background: #FFF8F3; 
+.header {
+    background: #FFF8F3;
 
 }
-.banner
-{
+
+.banner {
     padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
 }
+
+/* .banner .pp
+{
+    width: 500px;
+   
+} */
